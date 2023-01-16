@@ -1,0 +1,271 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-15T10:39:24.596Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions._Hooks.before()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Status Code Control",
+        "description": "",
+        "id": "status-code-functionality;status-code-control",
+        "after": [
+          {
+            "result": {
+              "duration": 138000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions._Hooks.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13235000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to Status Code Page",
+            "match": {
+              "location": "StepDefinitions.StatusCodeSteps.navigateToStatusCodePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 766000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Click the Code",
+            "match": {
+              "location": "StepDefinitions.StatusCodeSteps.userClickTheCode(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "code200"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify User reach the Clicked Code",
+            "match": {
+              "location": "StepDefinitions.StatusCodeSteps.verifyUserReachTheClickedCode(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "success200",
+                  "200"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 360000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Back to Main Page",
+            "match": {
+              "location": "StepDefinitions.StatusCodeSteps.backToMainPage(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "back"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 354000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Click the Code",
+            "match": {
+              "location": "StepDefinitions.StatusCodeSteps.userClickTheCode(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "code301"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify User reach the Clicked Code",
+            "match": {
+              "location": "StepDefinitions.StatusCodeSteps.verifyUserReachTheClickedCode(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "success301",
+                  "301"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 312000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Back to Main Page",
+            "match": {
+              "location": "StepDefinitions.StatusCodeSteps.backToMainPage(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "back"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 318000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User Click the Code",
+            "match": {
+              "location": "StepDefinitions.StatusCodeSteps.userClickTheCode(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "code404"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify User reach the Clicked Code",
+            "match": {
+              "location": "StepDefinitions.StatusCodeSteps.verifyUserReachTheClickedCode(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "success404",
+                  "404"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 302000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Back to Main Page",
+            "match": {
+              "location": "StepDefinitions.StatusCodeSteps.backToMainPage(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "back"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 327000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User Click the Code",
+            "match": {
+              "location": "StepDefinitions.StatusCodeSteps.userClickTheCode(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "code500"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Verify User reach the Clicked Code",
+            "match": {
+              "location": "StepDefinitions.StatusCodeSteps.verifyUserReachTheClickedCode(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "success500",
+                  "500"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Status Code Functionality",
+    "description": "",
+    "id": "status-code-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFiles/StatusCode.feature",
+    "tags": []
+  }
+]
